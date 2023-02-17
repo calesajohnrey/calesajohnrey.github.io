@@ -1,0 +1,41 @@
+/* THIS IS THE STYLING FILE */
+
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+    color: #000000;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+    padding: 20px;
+    margin: auto;
+}
+
+
+/* MAIN SECTION */
+
+header {
+    height: 90px;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    float: right;
+}
+
+li {
+    padding: 0 10px;
+}
+
+section#main-section {}
