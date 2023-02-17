@@ -1,41 +1,76 @@
 /* THIS IS THE STYLING FILE */
 
 * {
-    box-sizing: border-box;
-    border: 1px solid black;
-    font-family: 'Inter', sans-serif;
-    line-height: 30px;
-    color: #000000;
+  box-sizing: border-box;
+  border: 1px solid black;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  color: #000000;
 }
 
 body {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-    background: #FFFFFF;
-    padding: 20px;
-    margin: auto;
+  position: relative;
+  width: 1440px;
+  height: auto;
+  background: #ffffff;
+  padding: 20px;
+  margin: auto;
 }
-
 
 /* MAIN SECTION */
 
 header {
-    height: 90px;
-    position: sticky;
-    top: 0;
+  height: 90px;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    float: right;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  float: right;
 }
 
 li {
-    padding: 0 10px;
+  padding: 0 10px;
+}
+h1 {
+  margin: 0;
 }
 
-section#main-section {}
+#main-title {
+  margin: 50px 0;
+
+}
+#main-img {
+  width: 100%;
+  height: auto;
+  overflow:hidden;
+}
+#main-section-page {
+    display: flex;
+    flex-direction: row;
+}
+#name-page{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#main-section-page_left, #main-section-page_right{
+    width: 50%;
+}
+
+#main-section-page_right{
+    margin: 20px;
+}
+
+/* ABOUT SECTION */
+
+#about-section, #portfolio,#portfolio-subsection_1, #portfolio-subsection_2, #contact-section {
+    position: relative;
+    width: auto;
+    height: 1024px;
+}
