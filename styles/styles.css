@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: "Inter", sans-serif;
     line-height: 30px;
     color: #000000;
@@ -11,14 +11,15 @@
 body {
     position: relative;
     height: auto;
-    background: whitesmoke;
+    background: #FFFF;
     margin: auto;
 }
 
 
 /* MAIN SECTION */
 
-main {
+main,
+#nav {
     width: 1440px;
     margin: auto;
 }
@@ -28,14 +29,14 @@ header {
     margin: auto;
     position: sticky;
     top: 0;
-    background-color: whitesmoke;
+    background-color: #fff;
 }
 
 ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 20px;
     float: right;
 }
 
@@ -44,8 +45,14 @@ li {
 }
 
 h1 {
-    margin: 0;
-    padding: 10px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 70px;
+}
+
+p,
+span {
+    font-size: 20px;
 }
 
 #main-title {
@@ -53,9 +60,10 @@ h1 {
 }
 
 #main-img {
-    width: 100%;
-    height: auto;
+    width: 900px;
+    height: 450px;
     overflow: hidden;
+    margin: 80px 0;
 }
 
 #main-section-page {
@@ -67,7 +75,8 @@ h1 {
     display: flex;
     flex-direction: row;
     margin: auto;
-    padding: 0 200px;
+    padding: 0 100px;
+    height: auto;
 }
 
 .name-page-element {
@@ -76,13 +85,70 @@ h1 {
 
 p#name {
     padding: 10px;
+    margin: auto 0;
 }
 
 #main-section-page_left,
 #main-section-page_right {
-    width: 50%;
+    height: auto;
 }
 
 #main-section-page_right {
     margin: 20px;
+    width: 35%;
+}
+
+
+/* ABOUT PAGE */
+
+#main-section,
+#about-section,
+#portfolio {
+    width: 1440px;
+    height: 1024px;
+    border-bottom: #000000 1px solid;
+}
+
+p.span-titles {
+    padding: 20px;
+    margin: 75px 0;
+}
+
+#about-section-page {
+    display: flex;
+    flex-direction: row;
+    height: 1024px;
+}
+
+#creators_name {
+    margin: 75px 0;
+}
+
+#about-section-page_left {
+    width: 60%;
+}
+
+#about-section_img1 {
+    display: block;
+    margin: 50px auto;
+    object-fit: cover;
+    width: 800px;
+    height: 500px;
+}
+
+#about-description {
+    margin: 75px 0;
+}
+
+#about-section-page_right {
+    width: 40%;
+    padding: 30px;
+}
+
+#about-section_img2 {
+    display: block;
+    margin: 150px auto;
+    object-fit: cover;
+    width: 450px;
+    height: 450px;
 }
