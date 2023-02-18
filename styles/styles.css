@@ -66,11 +66,6 @@ li:hover {
     transition-delay: .10s;
 }
 
-li:active {
-    background-color: #0077b6;
-    color: white;
-}
-
 h1 {
     margin: 10px;
     padding: 20px;
