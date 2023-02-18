@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: "Inter", sans-serif;
     line-height: 30px;
     color: #000000;
@@ -22,6 +22,10 @@ main,
 #nav {
     width: 1440px;
     margin: auto;
+}
+
+img {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 header {
@@ -102,7 +106,10 @@ p#name {
 /* ABOUT PAGE */
 
 #main-section,
-#portfolio {
+#about-section,
+#portfolio,
+#portfolio-subsection_1,
+#portfolio-subsection_2 {
     border-bottom: #000000 1px solid;
 }
 
@@ -114,7 +121,7 @@ p.span-titles {
 #about-section-page {
     display: flex;
     flex-direction: row;
-    height: 1024px;
+    height: 975px;
 }
 
 #creators_name {
@@ -125,16 +132,9 @@ p.span-titles {
     width: 60%;
 }
 
-#about-section_img1 {
-    display: block;
-    margin: 50px auto;
-    object-fit: cover;
-    width: 800px;
-    height: 500px;
-}
-
 #about-description {
     margin: 75px 0;
+    padding: 20px;
 }
 
 #about-section-page_right {
@@ -144,59 +144,75 @@ p.span-titles {
 
 #about-section_img2 {
     display: block;
-    margin: 150px auto;
     object-fit: cover;
-    width: 450px;
-    height: 450px;
+    width: 480px;
+    height: 894px;
+    margin: auto auto;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
 /* PORTFOLIO */
-#port-page{
+
+#port-page {
     display: flex;
     flex-direction: row;
 }
-#port-image_1{
-display: block;
-object-fit: cover;
-width: 955px;
-height: 650px;
 
-}
-#port-image_2{
+#port-image_1 {
     display: block;
-object-fit: cover;
-width: 480px;
-height: 650px; 
+    object-fit: cover;
+    width: 955px;
+    height: 650px;
 }
 
-#port-pag{
+#port-image_2 {
+    display: block;
+    object-fit: cover;
+    width: 480px;
+    height: 650px;
+}
+
+#port-pag {
     width: 1024px;
     margin: 80px auto;
 }
 
-/* PORTFOLIO SUBSECTION */
-#portfolio-subsection_1{
+#portfolio {
+    margin-top: 50px;
+}
+
+
+/* PORTFOLIO SUBSECTION  1*/
+
+#portfolio-subsection_1 {
     display: flex;
     flex-direction: row;
     gap: 50px;
     margin: 40px;
 }
-.subsection1{
+
+.subsection1 {
     display: flex;
     flex-direction: column;
 }
 
-#section_1{
+#section_1 {
     width: 395px;
     margin: 20px;
 }
 
-#section_2{
+#section_2 {
     gap: 50px;
     margin: 40px;
 }
 
-#subsection-image1{
+#subsection-image1 {
     display: block;
     object-fit: cover;
     width: 480px;
@@ -204,32 +220,100 @@ height: 650px;
     margin: auto auto;
 }
 
-#subsection-image2{
+#subsection-image2 {
     display: block;
     object-fit: cover;
     width: 297px;
-    height: 275px;}
+    height: 275px;
+}
 
-    #subsection-image3{
-        display: block;
-        object-fit: cover;
-        width: 298px;
-    height: 562px;}
+#subsection-image3 {
+    display: block;
+    object-fit: cover;
+    width: 298px;
+    height: 562px;
+}
 
-    /*  */
 
-    #subsection2{
-        width: 454px;
-    }
+/* PORTFOLIO SUBSECTION  1*/
 
-    .images{
-        display: block;
-        object-fit: cover;
-        width: 350px;
-        height: 233px;
-    }
+#portfolio-subsection_2 {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
 
-    #subsection2_1{
-        display: flex;
-        flex-direction: row;
-    }
+#portfolio-subsection {
+    padding: 20px;
+}
+
+#subsection2 {
+    width: 454px;
+}
+
+.images {
+    display: block;
+    object-fit: cover;
+    width: 350px;
+    height: 233px;
+    margin: 10px;
+}
+
+#subsection2_1 {
+    display: flex;
+    width: 744px;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 70px 30px 0;
+}
+
+#portfolio-subsection_image {
+    width: 480px;
+    height: 894px;
+    display: block;
+    object-fit: cover;
+}
+
+#portfolio-subsection_image {
+    margin: auto;
+}
+
+
+/* CONTACT */
+
+#contact-section {
+    padding: 25px;
+}
+
+#contact-section-page {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#contact-image {
+    width: 900px;
+    height: 450px;
+    display: block;
+    object-fit: cover;
+}
+
+#contact-section-info {
+    margin: auto;
+    width: 350px;
+}
+
+button#resume {
+    display: block;
+    margin: 25px auto;
+    width: 800px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007ea7;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#title-resume {
+    color: white;
+}
