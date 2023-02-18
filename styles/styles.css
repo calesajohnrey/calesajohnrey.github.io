@@ -8,6 +8,10 @@
     color: #000000;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     position: relative;
     height: auto;
@@ -26,6 +30,7 @@ main,
 
 img {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
 }
 
 header {
@@ -45,7 +50,25 @@ ul {
 }
 
 li {
-    padding: 0 10px;
+    padding: 0 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #0077b6;
+    color: white;
+    opacity: 0.6;
+    transition-delay: .10s;
+}
+
+li:active {
+    background-color: #0077b6;
+    color: white;
 }
 
 h1 {
@@ -311,7 +334,12 @@ button#resume {
     border-radius: 5px;
     border: none;
     background-color: #007ea7;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+button#resume:hover {
+    opacity: 0.6;
+    transition-delay: .10s;
 }
 
 #title-resume {
