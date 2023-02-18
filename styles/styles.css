@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     font-family: "Inter", sans-serif;
     line-height: 30px;
     color: #000000;
@@ -102,10 +102,7 @@ p#name {
 /* ABOUT PAGE */
 
 #main-section,
-#about-section,
 #portfolio {
-    width: 1440px;
-    height: 1024px;
     border-bottom: #000000 1px solid;
 }
 
@@ -152,3 +149,87 @@ p.span-titles {
     width: 450px;
     height: 450px;
 }
+
+/* PORTFOLIO */
+#port-page{
+    display: flex;
+    flex-direction: row;
+}
+#port-image_1{
+display: block;
+object-fit: cover;
+width: 955px;
+height: 650px;
+
+}
+#port-image_2{
+    display: block;
+object-fit: cover;
+width: 480px;
+height: 650px; 
+}
+
+#port-pag{
+    width: 1024px;
+    margin: 80px auto;
+}
+
+/* PORTFOLIO SUBSECTION */
+#portfolio-subsection_1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 40px;
+}
+.subsection1{
+    display: flex;
+    flex-direction: column;
+}
+
+#section_1{
+    width: 395px;
+    margin: 20px;
+}
+
+#section_2{
+    gap: 50px;
+    margin: 40px;
+}
+
+#subsection-image1{
+    display: block;
+    object-fit: cover;
+    width: 480px;
+    height: 894px;
+    margin: auto auto;
+}
+
+#subsection-image2{
+    display: block;
+    object-fit: cover;
+    width: 297px;
+    height: 275px;}
+
+    #subsection-image3{
+        display: block;
+        object-fit: cover;
+        width: 298px;
+    height: 562px;}
+
+    /*  */
+
+    #subsection2{
+        width: 454px;
+    }
+
+    .images{
+        display: block;
+        object-fit: cover;
+        width: 350px;
+        height: 233px;
+    }
+
+    #subsection2_1{
+        display: flex;
+        flex-direction: row;
+    }
