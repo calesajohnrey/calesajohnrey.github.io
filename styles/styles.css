@@ -5,7 +5,7 @@
     /* border: 1px solid black; */
     font-family: "Inter", sans-serif;
     line-height: 30px;
-    color: #000000;
+    color: #388087;
 }
 
 html {
@@ -17,6 +17,7 @@ body {
     height: auto;
     background: #FFFF;
     margin: auto;
+    
 }
 
 
@@ -34,11 +35,10 @@ img {
 }
 
 header {
-    height: 90px;
+    height: 100px;
     margin: auto;
     position: sticky;
     top: 0;
-    background-color: #fff;
 }
 
 ul {
@@ -47,6 +47,8 @@ ul {
     flex-direction: row;
     padding: 20px;
     float: right;
+    background-color: #F6F6F2;
+    border-radius: 5px;
 }
 
 li {
@@ -76,6 +78,8 @@ p,
 span {
     font-size: 20px;
 }
+
+#main-section{padding: 30px;}
 
 #main-title {
     margin: 50px 0;
@@ -122,14 +126,11 @@ p#name {
 
 
 /* ABOUT PAGE */
-
-#main-section,
-#about-section,
-#portfolio,
-#portfolio-subsection_1,
-#portfolio-subsection_2 {
-    border-bottom: #000000 1px solid;
+#main-section, #portfolio,#portfolio-subsection_2{
+    background-color: #F6F6F2;
+    border-radius: 5px;
 }
+
 
 p.span-titles {
     padding: 20px;
@@ -203,6 +204,7 @@ p.span-titles {
 
 #portfolio {
     margin-top: 50px;
+    padding-bottom: 5px;
 }
 
 
@@ -300,7 +302,14 @@ p.span-titles {
 /* CONTACT */
 
 #contact-section {
-    padding: 25px;
+    padding: 50px 20px;
+    background-color: #388087;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#contact-section h1, #contact-section i, #contact-section-info h2, #contact-section-info p {
+    color: #F6F6F2;
 }
 
 #contact-section-page {
@@ -328,7 +337,6 @@ button#resume {
     padding: 5px;
     border-radius: 5px;
     border: none;
-    background-color: #007ea7;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
@@ -338,5 +346,5 @@ button#resume:hover {
 }
 
 #title-resume {
-    color: white;
+    color: #388087
 }
