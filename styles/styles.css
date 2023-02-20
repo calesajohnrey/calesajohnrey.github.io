@@ -375,7 +375,7 @@ button#resume:hover {
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-    html,
+    /* html,
     header,
     #main-section,
     #about-section,
@@ -415,7 +415,7 @@ button#resume:hover {
     }
     #port-image_2 {
         display: none;
-    }
+    } */
 }
 
 
