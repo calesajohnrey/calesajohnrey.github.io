@@ -1,413 +1,439 @@
-                                                                                        /* THIS IS THE STYLING FILE */
-                                                                                        
-                                                                                        * {
-                                                                                            box-sizing: border-box;
-                                                                                            /* border: 1px solid black; */
-                                                                                            font-family: "Inter", sans-serif;
-                                                                                            line-height: 30px;
-                                                                                            color: #388087;
-                                                                                        }
-                                                                                        
-                                                                                        html {
-                                                                                            scroll-behavior: smooth;
-                                                                                        }
-                                                                                        
-                                                                                        body {
-                                                                                            position: relative;
-                                                                                            height: auto;
-                                                                                            background: #FFFF;
-                                                                                            margin: auto;
-                                                                                        }
-                                                                                        /* MAIN SECTION */
-                                                                                        
-                                                                                        main,
-                                                                                        #nav {
-                                                                                            width: 1440px;
-                                                                                            margin: auto;
-                                                                                        }
-                                                                                        
-                                                                                        img {
-                                                                                            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-                                                                                            border-radius: 5px;
-                                                                                        }
-                                                                                        
-                                                                                        header {
-                                                                                            height: 100px;
-                                                                                            margin: auto;
-                                                                                            position: sticky;
-                                                                                            top: 0;
-                                                                                        }
-                                                                                        
-                                                                                        ul {
-                                                                                            list-style: none;
-                                                                                            display: flex;
-                                                                                            flex-direction: row;
-                                                                                            padding: 20px;
-                                                                                            float: right;
-                                                                                            background-color: #F6F6F2;
-                                                                                            border-radius: 5px;
-                                                                                        }
-                                                                                        
-                                                                                        li {
-                                                                                            padding: 0 20px;
-                                                                                            margin: 0 5px;
-                                                                                            border-radius: 5px;
-                                                                                        }
-                                                                                        
-                                                                                        a {
-                                                                                            text-decoration: none;
-                                                                                        }
-                                                                                        
-                                                                                        li:hover {
-                                                                                            background-color: #0077b6;
-                                                                                            color: white;
-                                                                                            opacity: 0.6;
-                                                                                            transition-delay: .10s;
-                                                                                        }
-                                                                                        
-                                                                                        h1 {
-                                                                                            margin: 10px;
-                                                                                            padding: 20px;
-                                                                                            font-size: 70px;
-                                                                                        }
-                                                                                        
-                                                                                        p,
-                                                                                        span {
-                                                                                            font-size: 20px;
-                                                                                        }
-                                                                                        
-                                                                                        #main-section {
-                                                                                            padding: 30px;
-                                                                                            max-width: inherit;
-                                                                                        }
-                                                                                        
-                                                                                        #main-title {
-                                                                                            margin: 50px 0;
-                                                                                        }
-                                                                                        
-                                                                                        #main-img {
-                                                                                            width: 900px;
-                                                                                            height: 450px;
-                                                                                            overflow: hidden;
-                                                                                            margin: 80px 0;
-                                                                                        }
-                                                                                        
-                                                                                        #main-section-page {
-                                                                                            display: flex;
-                                                                                            flex-direction: row;
-                                                                                        }
-                                                                                        
-                                                                                        .name-page {
-                                                                                            display: flex;
-                                                                                            flex-direction: row;
-                                                                                            height: auto;
-                                                                                            gap: 10px;
-                                                                                            justify-content: center;
-                                                                                            align-items: center;
-                                                                                        }
-                                                                                        
-                                                                                        .name-page2 {
-                                                                                            display: flex;
-                                                                                            justify-content: center;
-                                                                                            align-items: center;
-                                                                                            margin: 20px;
-                                                                                        }
-                                                                                        
-                                                                                        p#name {
-                                                                                            padding: 10px;
-                                                                                            margin: auto 0;
-                                                                                        }
-                                                                                        
-                                                                                        #main-section-page_left,
-                                                                                        #main-section-page_right {
-                                                                                            height: auto;
-                                                                                        }
-                                                                                        
-                                                                                        #main-section-page_right {
-                                                                                            margin: 20px;
-                                                                                            width: 35%;
-                                                                                        }
-                                                                                        /* ABOUT PAGE */
-                                                                                        
-                                                                                        #main-section,
-                                                                                        #portfolio,
-                                                                                        #portfolio-subsection_2 {
-                                                                                            background-color: #F6F6F2;
-                                                                                            border-radius: 5px;
-                                                                                        }
-                                                                                        
-                                                                                        p.span-titles {
-                                                                                            padding: 20px;
-                                                                                            margin: 75px 0;
-                                                                                        }
-                                                                                        
-                                                                                        #about-section-page {
-                                                                                            display: flex;
-                                                                                            flex-direction: row;
-                                                                                            height: 975px;
-                                                                                        }
-                                                                                        
-                                                                                        #creators_name {
-                                                                                            margin: 75px 0;
-                                                                                        }
-                                                                                        
-                                                                                        #about-section-page_left {
-                                                                                            width: 60%;
-                                                                                        }
-                                                                                        
-                                                                                        #about-description {
-                                                                                            margin: 75px 0;
-                                                                                            padding: 20px;
-                                                                                        }
-                                                                                        
-                                                                                        #about-section-page_right {
-                                                                                            width: 40%;
-                                                                                            padding: 30px;
-                                                                                        }
-                                                                                        
-                                                                                        #about-section_img2 {
-                                                                                            display: block;
-                                                                                            object-fit: cover;
-                                                                                            width: 480px;
-                                                                                            height: 894px;
-                                                                                            margin: auto auto;
-                                                                                        }
-                                                                                        /* #about-section_img2:hover {} */
-                                                                                        
-                                                                                        .clearfix::after {
-                                                                                            content: "";
-                                                                                            clear: both;
-                                                                                            display: table;
-                                                                                        }
-                                                                                        /* PORTFOLIO */
-                                                                                        
-                                                                                        #port-page {
-                                                                                            display: flex;
-                                                                                            flex-direction: row;
-                                                                                        }
-                                                                                        
-                                                                                        #port-image_1 {
-                                                                                            display: block;
-                                                                                            object-fit: cover;
-                                                                                            width: 955px;
-                                                                                            height: 650px;
-                                                                                        }
-                                                                                        
-                                                                                        #port-image_2 {
-                                                                                            display: block;
-                                                                                            object-fit: cover;
-                                                                                            width: 480px;
-                                                                                            height: 650px;
-                                                                                        }
-                                                                                        
-                                                                                        #port-pag {
-                                                                                            width: 1024px;
-                                                                                            margin: 80px auto;
-                                                                                        }
-                                                                                        
-                                                                                        #portfolio {
-                                                                                            margin-top: 50px;
-                                                                                            padding-bottom: 5px;
-                                                                                        }
-                                                                                        
-                                                                                        #about-section-page_left * {
-                                                                                            color: #a76b50;
-                                                                                        }
-                                                                                        /* PORTFOLIO SUBSECTION  1*/
-                                                                                        
-                                                                                        #portfolio-subsection_1 {
-                                                                                            display: flex;
-                                                                                            flex-direction: row;
-                                                                                            gap: 50px;
-                                                                                            margin: 40px;
-                                                                                        }
-                                                                                        
-                                                                                        .subsection1 {
-                                                                                            display: flex;
-                                                                                            flex-direction: column;
-                                                                                        }
-                                                                                        
-                                                                                        #section_1 {
-                                                                                            width: 395px;
-                                                                                            margin: 20px;
-                                                                                        }
-                                                                                        
-                                                                                        #section_2 {
-                                                                                            gap: 50px;
-                                                                                            margin: 40px;
-                                                                                        }
-                                                                                        
-                                                                                        #subsection-image1 {
-                                                                                            display: block;
-                                                                                            object-fit: cover;
-                                                                                            width: 480px;
-                                                                                            height: 894px;
-                                                                                            margin: auto auto;
-                                                                                        }
-                                                                                        
-                                                                                        #subsection-image2 {
-                                                                                            display: block;
-                                                                                            object-fit: cover;
-                                                                                            width: 297px;
-                                                                                            height: 275px;
-                                                                                        }
-                                                                                        
-                                                                                        #subsection-image3 {
-                                                                                            display: block;
-                                                                                            object-fit: cover;
-                                                                                            width: 298px;
-                                                                                            height: 562px;
-                                                                                        }
-                                                                                        /* PORTFOLIO SUBSECTION  1*/
-                                                                                        
-                                                                                        #portfolio-subsection_2 {
-                                                                                            display: flex;
-                                                                                            flex-direction: row;
-                                                                                            padding: 30px;
-                                                                                        }
-                                                                                        
-                                                                                        #portfolio-subsection {
-                                                                                            padding: 20px;
-                                                                                        }
-                                                                                        
-                                                                                        #subsection2 {
-                                                                                            width: 454px;
-                                                                                        }
-                                                                                        
-                                                                                        .images {
-                                                                                            display: block;
-                                                                                            object-fit: cover;
-                                                                                            width: 350px;
-                                                                                            height: 233px;
-                                                                                            margin: 10px;
-                                                                                        }
-                                                                                        
-                                                                                        #subsection2_1 {
-                                                                                            display: flex;
-                                                                                            width: 744px;
-                                                                                            height: auto;
-                                                                                            flex-wrap: wrap;
-                                                                                            margin: 70px 30px 0;
-                                                                                        }
-                                                                                        
-                                                                                        #portfolio-subsection_image {
-                                                                                            width: 480px;
-                                                                                            height: 894px;
-                                                                                            display: block;
-                                                                                            object-fit: cover;
-                                                                                        }
-                                                                                        
-                                                                                        #portfolio-subsection_image {
-                                                                                            margin: auto;
-                                                                                        }
-                                                                                        /* CONTACT */
-                                                                                        
-                                                                                        #contact-section {
-                                                                                            padding: 50px 20px 20px;
-                                                                                            background-color: #8F8F88;
-                                                                                            margin-top: 10px;
-                                                                                            margin-bottom: 10px;
-                                                                                            border-radius: 5px;
-                                                                                        }
-                                                                                        
-                                                                                        #contact-section h1,
-                                                                                        #contact-section i,
-                                                                                        #contact-section-info h2,
-                                                                                        #contact-section-info p {
-                                                                                            color: white;
-                                                                                        }
-                                                                                        
-                                                                                        #contact-section-page {
-                                                                                            display: flex;
-                                                                                            flex-direction: row;
-                                                                                            padding: 20px;
-                                                                                        }
-                                                                                        
-                                                                                        #contact-image {
-                                                                                            width: 900px;
-                                                                                            height: 450px;
-                                                                                            display: block;
-                                                                                            object-fit: cover;
-                                                                                        }
-                                                                                        
-                                                                                        #contact-section-info {
-                                                                                            margin: auto;
-                                                                                            width: 350px;
-                                                                                        }
-                                                                                        
-                                                                                        button#resume {
-                                                                                            display: block;
-                                                                                            margin: 25px auto;
-                                                                                            width: 800px;
-                                                                                            padding: 5px;
-                                                                                            border-radius: 5px;
-                                                                                            border: none;
-                                                                                            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-                                                                                        }
-                                                                                        
-                                                                                        button#resume:hover {
-                                                                                            opacity: 0.6;
-                                                                                            transition-delay: .10s;
-                                                                                        }
-                                                                                        
-                                                                                        #title-resume {
-                                                                                            color: #388087
-                                                                                        }
-                                                                                        /* ================ */
-                                                                                        /* Extra small devices (phones, 600px and down) */
-                                                                                        
-                                                                                        @media only screen and (max-width: 600px) {
-                                                                                            html,
-                                                                                            header,
-                                                                                            #main-section,
-                                                                                            #about-section,
-                                                                                            #portfolio,
-                                                                                            #portfolio-subsection_1,
-                                                                                            #portfolio-subsection_2,
-                                                                                            #contact-section,
-                                                                                            ul {
-                                                                                                width: 1000px;
-                                                                                            }
-                                                                                            #main-section-page {
-                                                                                                display: flex;
-                                                                                                flex-direction: column;
-                                                                                            }
-                                                                                            #main-section-page_right {
-                                                                                                width: 95%;
-                                                                                            }
-                                                                                            #about-section {
-                                                                                                padding: 30px;
-                                                                                            }
-                                                                                            #about-section-page_left,
-                                                                                            #about-section-page_right {
-                                                                                                width: 50%;
-                                                                                            }
-                                                                                            #creators_name {
-                                                                                                line-height: 1;
-                                                                                            }
-                                                                                            #about-section_img2 {
-                                                                                                width: 100%;
-                                                                                            }
-                                                                                            #port-pag {
-                                                                                                margin: 20px;
-                                                                                            }
-                                                                                            #port-image_1 {
-                                                                                                width: 100%;
-                                                                                                padding: 10px;
-                                                                                            }
-                                                                                            #port-image_2 {
-                                                                                                display: none;
-                                                                                            }
-                                                                                        }
-                                                                                        /* Small devices (portrait tablets and large phones, 600px and up) */
-                                                                                        
-                                                                                        @media only screen and (min-width: 600px) {}
-                                                                                        /* Medium devices (landscape tablets, 768px and up) */
-                                                                                        
-                                                                                        @media only screen and (min-width: 768px) {}
-                                                                                        /* Large devices (laptops/desktops, 992px and up) */
-                                                                                        
-                                                                                        @media only screen and (min-width: 992px) {}
-                                                                                        /* Extra large devices (large laptops and desktops, 1200px and up) */
-                                                                                        
-                                                                                        @media only screen and (min-width: 1200px) {}
+/* THIS IS THE STYLING FILE */
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: "Inter", sans-serif;
+    line-height: 30px;
+    color: #388087;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    height: auto;
+    background: #FFFF;
+    margin: auto;
+}
+
+
+/* MAIN SECTION */
+
+main,
+#nav {
+    width: 1440px;
+    margin: auto;
+}
+
+img {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+}
+
+header {
+    height: 100px;
+    margin: auto;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    float: right;
+    background-color: #F6F6F2;
+    border-radius: 5px;
+}
+
+li {
+    padding: 0 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #0077b6;
+    color: white;
+    opacity: 0.6;
+    transition-delay: .10s;
+}
+
+h1 {
+    margin: 10px;
+    padding: 20px;
+    font-size: 70px;
+}
+
+p,
+span {
+    font-size: 20px;
+}
+
+#main-section {
+    padding: 30px;
+    max-width: inherit;
+}
+
+#main-title {
+    margin: 50px 0;
+}
+
+#main-img {
+    width: 900px;
+    height: 450px;
+    overflow: hidden;
+    margin: 80px 0;
+}
+
+#main-section-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-page {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+p#name {
+    padding: 10px;
+    margin: auto 0;
+}
+
+#main-section-page_left,
+#main-section-page_right {
+    height: auto;
+}
+
+#main-section-page_right {
+    margin: 20px;
+    width: 35%;
+}
+
+
+/* ABOUT PAGE */
+
+#main-section,
+#portfolio,
+#portfolio-subsection_2 {
+    background-color: #F6F6F2;
+    border-radius: 5px;
+}
+
+p.span-titles {
+    padding: 20px;
+    margin: 75px 0;
+}
+
+#about-section-page {
+    display: flex;
+    flex-direction: row;
+    height: 975px;
+}
+
+#creators_name {
+    margin: 75px 0;
+}
+
+#about-section-page_left {
+    width: 60%;
+}
+
+#about-description {
+    margin: 75px 0;
+    padding: 20px;
+}
+
+#about-section-page_right {
+    width: 40%;
+    padding: 30px;
+}
+
+#about-section_img2 {
+    display: block;
+    object-fit: cover;
+    width: 480px;
+    height: 894px;
+    margin: auto auto;
+}
+
+
+/* #about-section_img2:hover {} */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* PORTFOLIO */
+
+#port-page {
+    display: flex;
+    flex-direction: row;
+}
+
+#port-image_1 {
+    display: block;
+    object-fit: cover;
+    width: 955px;
+    height: 650px;
+}
+
+#port-image_2 {
+    display: block;
+    object-fit: cover;
+    width: 480px;
+    height: 650px;
+}
+
+#port-pag {
+    width: 1024px;
+    margin: 80px auto;
+}
+
+#portfolio {
+    margin-top: 50px;
+    padding-bottom: 5px;
+}
+
+#about-section-page_left * {
+    color: #a76b50;
+}
+
+
+/* PORTFOLIO SUBSECTION 1*/
+
+#portfolio-subsection_1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 40px;
+}
+
+.subsection1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#section_1 {
+    width: 395px;
+    margin: 20px;
+}
+
+#section_2 {
+    gap: 50px;
+    margin: 40px;
+}
+
+#subsection-image1 {
+    display: block;
+    object-fit: cover;
+    width: 480px;
+    height: 894px;
+    margin: auto auto;
+}
+
+#subsection-image2 {
+    display: block;
+    object-fit: cover;
+    width: 297px;
+    height: 275px;
+}
+
+#subsection-image3 {
+    display: block;
+    object-fit: cover;
+    width: 298px;
+    height: 562px;
+}
+
+
+/* PORTFOLIO SUBSECTION 1*/
+
+#portfolio-subsection_2 {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+#portfolio-subsection {
+    padding: 20px;
+}
+
+#subsection2 {
+    width: 454px;
+}
+
+.images {
+    display: block;
+    object-fit: cover;
+    width: 350px;
+    height: 233px;
+    margin: 10px;
+}
+
+#subsection2_1 {
+    display: flex;
+    width: 744px;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 70px 30px 0;
+}
+
+#portfolio-subsection_image {
+    width: 480px;
+    height: 894px;
+    display: block;
+    object-fit: cover;
+}
+
+#portfolio-subsection_image {
+    margin: auto;
+}
+
+
+/* CONTACT */
+
+#contact-section {
+    padding: 50px 20px 20px;
+    background-color: #8F8F88;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#contact-section h1,
+#contact-section i,
+#contact-section-info h2,
+#contact-section-info p {
+    color: white;
+}
+
+#contact-section-page {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#contact-image {
+    width: 900px;
+    height: 450px;
+    display: block;
+    object-fit: cover;
+}
+
+#contact-section-info {
+    margin: auto;
+    width: 350px;
+}
+
+button#resume {
+    display: block;
+    margin: 25px auto;
+    width: 800px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+button#resume:hover {
+    opacity: 0.6;
+    transition-delay: .10s;
+}
+
+#title-resume {
+    color: #388087
+}
+
+
+/* ================ */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    html,
+    header,
+    #main-section,
+    #about-section,
+    #portfolio,
+    #portfolio-subsection_1,
+    #portfolio-subsection_2,
+    #contact-section,
+    ul {
+        width: 1000px;
+    }
+    #main-section-page {
+        display: flex;
+        flex-direction: column;
+    }
+    #main-section-page_right {
+        width: 95%;
+    }
+    #about-section {
+        padding: 30px;
+    }
+    #about-section-page_left,
+    #about-section-page_right {
+        width: 50%;
+    }
+    #creators_name {
+        line-height: 1;
+    }
+    #about-section_img2,
+    #port-image_1 {
+        width: 100%;
+    }
+    #port-pag {
+        margin: 20px;
+    }
+    #port-image_1 {
+        padding: 10px;
+    }
+    #port-image_2 {
+        display: none;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
